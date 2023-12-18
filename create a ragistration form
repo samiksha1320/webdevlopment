@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport"content="width=device-width, initial scale=1">
+        <title> Ragistration form</title>
+        <style type="text/css">
+        body{
+          background-image:url("life.jpg");
+          background-position: fixed;
+          background-repeat: no-repeat;
+          background-size: 100%;
+        }
+      #box{
+        border-style: solid;
+        border-width: thick;
+        border-radius: 20px 20px 20px 20px;
+        width: 35%;
+        background-color:whitesmoke;
+        padding: 50px;
+      }
+      .box1{
+        border-style: solid;
+        border-width: thin;
+        width: 30%;
+        border-radius: 50px 50px 50px 50px;
+      }
+      </style>
+      </head>
+      <body >
+        <center> <div id="box">
+         <img src="c:\Users\HP\OneDrive\Pictures\book.jpg" height="100px" width="100px" alt="This is a image">
+          <center><h1> VaultofCodes</h1></center>
+          <hr><br> <br>
+      <h1> Ragister Here</h1>
+        
+        
+        <form>
+
+            <label for="FName"> First Name</label>
+            <input type="text" name="first"></input><br><br>
+            <label for="LName"> Last Name</label>
+            <input type="text" name="Lirst"></input><br><br>
+            <label for="ename"> Email</label>
+            <input type="text" name="ename"></input><br><br>
+            <label for="pName"> Password</label>
+            <input type="text" name="pname"></input><br><br>
+            <label for="pName">Confirm Password</label>
+            <input type="text" name="pname"></input><br><br>
+            <label for="DOB"> DOB</label>
+            <input type="date" name="date"></input><br><br>
+            <label for="Gender"> Gender</label>
+            <input type="radio" name="f"> Female</input>
+            <input type="radio" name="m"> Male</input><br><br>
+            <label for="Terms & Condition"> Agree to Terms & Condition</label>
+            <input type="checkbox" name="Term & Condition"></input><br><br>
+            <input type="submit" name="submit"></input>
+          
+
+
+        </form>
+        </div></center>
+    </body>
+</html>
+
